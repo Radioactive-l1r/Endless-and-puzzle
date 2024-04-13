@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5549019580781611466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4736375305859893865}
+  - component: {fileID: 5906124857515844649}
+  m_Layer: 0
+  m_Name: RockpuzzleImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736375305859893865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549019580781611466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.34, y: 1.38, z: -0.053958848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5906124857515844649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549019580781611466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606c3dedb60df4840a0596e7dfa133c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab_PuzzlePart: {fileID: 3399103792908826947, guid: 1d9515fae27f78b4abfaf21cea616337, type: 3}
+  puzzleImages:
+  - {fileID: 128597074, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: 539286888, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: -401549067, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: -2080674347, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: 557597251, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: -1298920529, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: -623370893, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: 1664659045, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
+  - {fileID: 304345742, guid: f7de3860ede2abd40980ef3b12f88175, type: 3}
